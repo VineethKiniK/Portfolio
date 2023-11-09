@@ -1,0 +1,31 @@
+body{
+    background-color:gray
+}
+#Header a:hover{
+    color: aqua;
+    font-weight: bold;
+    
+}
+#bg-img{
+    background: url("../Images/coffee-laptop-on-desk-q4x3so53kou4pngw.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    min-height: 500px;
+
+}
+
+#About{
+    padding-top: 400px;
+    @media(max-width:500px ){
+        padding-top: 200px;
+
+        
+    }
+}
+
+#card-footer i{
+
+        color: white;
+    
+}
+
